@@ -16,7 +16,7 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name
-    self.artist && self.artist.name 
+    self.try(artist.name) 
   end
 
   def note_contents
