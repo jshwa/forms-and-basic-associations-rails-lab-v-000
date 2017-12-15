@@ -45,4 +45,3 @@ group :development, :test do
   gem 'capybara'
   gem 'pry'
 end
-
